@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Agriculture</title>
+  <meta name="description" content="Smart Agriculture — data-driven farming for healthier crops and better yields." />
+  <style>
+    :root { --green:#2f6b3a; --leaf:#7fb069; --soil:#5a3e2b; --cream:#f7f3e8; --ink:#1e2a1f; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family: Georgia, "Times New Roman", serif; background:var(--cream); color:var(--ink); line-height:1.6; }
+    header { background:linear-gradient(135deg,var(--green),#1d4426); color:var(--cream); padding:5rem 1.5rem 4rem; text-align:center; }
+    header h1 { font-size:clamp(2.2rem,6vw,4rem); letter-spacing:-0.02em; }
+    header p { max-width:40rem; margin:1rem auto 0; font-family:system-ui,sans-serif; opacity:.9; font-size:1.1rem; }
+    main { max-width:64rem; margin:0 auto; padding:3rem 1.5rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); gap:1.5rem; }
+    .card { background:#fff; border-left:5px solid var(--leaf); padding:1.5rem; border-radius:6px; box-shadow:0 2px 10px rgba(0,0,0,.06); }
+    .card h2 { font-size:1.25rem; color:var(--green); margin-bottom:.5rem; }
+    .card p { font-family:system-ui,sans-serif; font-size:.95rem; color:#3b4a3c; }
+    footer { text-align:center; padding:2rem; font-family:system-ui,sans-serif; font-size:.85rem; color:var(--soil); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Smart Agriculture</h1>
+    <p>Data-driven farming: monitor soil, weather and crops to grow more with less.</p>
+  </header>
+  <main>
+    <div class="grid">
+      <div class="card"><h2>Soil Monitoring</h2><p>Track moisture, temperature and nutrient levels to know exactly when and where to act.</p></div>
+      <div class="card"><h2>Smart Irrigation</h2><p>Water only when crops need it, saving water and improving plant health.</p></div>
+      <div class="card"><h2>Weather Insights</h2><p>Plan sowing, spraying and harvesting around reliable local forecasts.</p></div>
+      <div class="card"><h2>Crop Health</h2><p>Spot pests and disease early with regular field observations and alerts.</p></div>
+    </div>
+  </main>
+  <footer>&copy; Smart Agriculture</footer>
+</body>
+</html>
